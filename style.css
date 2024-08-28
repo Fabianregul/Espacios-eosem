@@ -92,7 +92,7 @@ footer{
     font-size: 0.7rem;
     margin: 8px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 p{
@@ -131,7 +131,7 @@ p{
 
 .modal-images img {
     width: 100%;
-    height: 100vh;
+    height: 650px;
    
 }
 
