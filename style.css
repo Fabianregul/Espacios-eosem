@@ -24,23 +24,22 @@ main{
     height: 100vh;
 }
 
-
-
 h1{
     font-family: system-ui;
     color: #2690b9;
+    font-size: 1rem;
 }
 
 img{
-    max-width: 150px;
-    max-height: 180px;
+    max-width: 120px;
+    max-height: 160px;
 }
 
 .contenidos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.3rem;
-    margin: 40px;
+    margin: 15px;
 }
 
 .contenidos > .tarjeta{
@@ -66,6 +65,11 @@ span{
     font-family: system-ui;
     color: #2690b9;
     font-weight: bold;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1rem;
 }
 
 @media (max-width: 608px) {

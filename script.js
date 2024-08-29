@@ -1,5 +1,5 @@
 //notificacion de temas habilitados
-alert("Estudiante eosem, cordial saludo, solo estan habilitados por el momento los temas de: \n\n - Atletismo \n - Futbol \n - Baloncesto");
+alert("Estudiante eosem, cordial saludo, por el momento el tema de VOLEIBOL no esta habilitado");
 
 //Ir a atletismo
 document.getElementById('tema_uno').addEventListener('click', function() {
