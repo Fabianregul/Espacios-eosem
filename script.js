@@ -1,23 +1,17 @@
-//1 - Selecciona todas las tarjetas
-const cards = document.querySelectorAll('.card');
-//2 - Selecciona todos los modales
-const modals = document.querySelectorAll('.modal');
-
+//notificacion de temas habilitados
 alert("Estudiante eosem, cordial saludo, solo estan habilitados por el momento los temas de: \n\n - Atletismo \n - Futbol \n - Baloncesto");
 
-//3 - Añade el evento de clic a cada tarjeta para abrir su modal correspondiente
-cards.forEach(card => {
-    card.addEventListener('click', function() {
-        const modalId = this.getAttribute('data-modal');
-        document.getElementById(modalId).style.display = 'block';
-    });
+//Ir a atletismo
+document.getElementById('tema_uno').addEventListener('click', function() {
+    window.location.href = 'atletismo.html';
+});
+//Ir a futbol
+document.getElementById('tema_dos').addEventListener('click', function() {
+    window.location.href = 'futbol.html';
+});
+//Ir a baloncesto
+document.getElementById('tema_tres').addEventListener('click', function() {
+    window.location.href = 'baloncesto.html';
 });
 
-//4 - Cierra el modal cuando se hace clic fuera del contenido del modal
-window.addEventListener('click', function(event) {
-    modals.forEach(modal => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
+
