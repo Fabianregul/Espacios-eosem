@@ -75,7 +75,7 @@ p{
 @media (max-width: 608px) {
 
     body{
-        background: url("./img/mobile.svg") no-repeat;
+        background: url("./img/fondo_mobile.svg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;

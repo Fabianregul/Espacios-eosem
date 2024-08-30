@@ -1,6 +1,3 @@
-//notificacion de temas habilitados
-alert("Estudiante eosem, cordial saludo, por el momento el tema de VOLEIBOL no esta habilitado");
-
 //Ir a atletismo
 document.getElementById('tema_uno').addEventListener('click', function() {
     window.location.href = 'atletismo.html';
@@ -12,6 +9,10 @@ document.getElementById('tema_dos').addEventListener('click', function() {
 //Ir a baloncesto
 document.getElementById('tema_tres').addEventListener('click', function() {
     window.location.href = 'baloncesto.html';
+});
+//Ir a voleibol
+document.getElementById('tema_cuatro').addEventListener('click', function() {
+    window.location.href = 'voleibol.html';
 });
 
 
