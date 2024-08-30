@@ -39,7 +39,7 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.3rem;
-    margin: 15px;
+  
 }
 
 .contenidos > .tarjeta{
